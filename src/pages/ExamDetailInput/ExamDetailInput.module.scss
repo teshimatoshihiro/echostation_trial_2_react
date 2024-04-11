@@ -1,0 +1,93 @@
+/* ExamDetailInput.module.scss */
+
+.formContainer {
+  width: 95%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.input {
+  width: 20%;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  text-align: left;
+  margin-right: auto;
+}
+
+.textarea {
+  width: 95%;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+
+
+.radioLabel {
+  margin-right: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+
+
+.submitButton {
+  display: block;
+  width: 30%;
+  padding: 15px;
+  background-color: #4cb679; /* 緑色のボタン */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: #45a049; /* ホバー時の色 */
+  }
+}
+
+/* 追加: エラーメッセージ用のスタイル */
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 16px;
+}
+
+.label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    
+}
+
+.radioGroup {
+    display: flex;
+    gap: 20px; /* 2つのラジオボタンラベルの間のスペース */
+}
+
+.radioLabel {
+    align-items: center; /* テキストとラジオボタンが中央に配置されるようにする */
+    gap: 8px; /* ラジオボタンとテキストの間のスペース */
+     writing-mode: horizontal-tb;
+}
+
+.radio {
+    margin: 0; /* 余分なマージンを削除 */
+}

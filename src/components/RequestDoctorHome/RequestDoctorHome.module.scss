@@ -1,0 +1,149 @@
+.request-section {
+  margin-top: 5px;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  margin-bottom: 50px;
+  margin-top: 0;
+  background-color: #f2f9f5;
+  padding: 10px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  max-width: 700px;
+  margin: 70px auto 70px;
+}
+
+.notifications {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.notification-ok {
+  padding: 10px;
+  width: 50%;
+  margin-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(232, 238, 253);
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.notifications-header {
+  text-align: left;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  flex-shrink: 0; // このスタイルはヘッダー部分が縮むのを防ぎます。
+  font-weight: bold;
+}
+
+.awaiting-approval {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #e1e1e1;
+  background-color: #fdf5f8;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.notifications-detail {
+  flex-grow: 1;
+  overflow-y: auto;
+  height: 350px;
+  margin: 10px;
+  font-size: 0.8rem;
+}
+
+.notification-item {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.notification-date {
+}
+
+.notification-user {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.notification-status {
+}
+
+.notification-detail-button {
+  background-color: #5a6ed2;
+  padding: 3px;
+  width: 4rem;
+  margin-right: 5px;
+}
+.notification-detail-button:hover {
+  background-color: #284cb6; /* やや濃いオレンジ */
+}
+
+.awaiting-detail-button {
+  background-color: #dc6186;
+  padding: 3px;
+  width: 4rem;
+  margin-right: 5px;
+}
+
+.awaiting-detail-button:hover {
+  background-color: #d02c5d; /* やや濃いオレンジ */
+}
+
+.cancel-approval {
+  padding: 10px;
+  max-width: 1000px;
+  max-height: 145px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  bottom: 0;
+}
+
+.cancel-detail {
+  flex-grow: 1;
+  overflow-y: auto;
+  // max-height: 380px;
+  margin: 5px;
+  font-size: 0.8rem;
+}
+
+.cancel-item {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.cancel-date {
+}
+
+.cancel-user {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.cancel-status {
+}
+
+.cancel-button {
+  background-color: #f35a5a;
+  padding: 3px;
+  width: 4rem;
+  margin-right: 5px;
+}
+.cancel-button:hover {
+  background-color: #e22424; /* やや濃いオレンジ */
+}
